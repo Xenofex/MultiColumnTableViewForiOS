@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB29157A13D6E76000CFA999 /* EWMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29156E13D6E76000CFA999 /* EWMultiColumnTableView.m */; };
+		BB29157B13D6E76000CFA999 /* EWMultiColumnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29157013D6E76000CFA999 /* EWMultiColumnTableViewCell.m */; };
+		BB29157C13D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29157313D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.m */; };
+		BB29157D13D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29157513D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.m */; };
+		BB29157E13D6E76000CFA999 /* EWHeaderHighlightLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29157713D6E76000CFA999 /* EWHeaderHighlightLayer.m */; };
+		BB29157F13D6E76000CFA999 /* UIView+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BB29157913D6E76000CFA999 /* UIView+AddLine.m */; };
+		BBB77CE913A38A850080351B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB77CE813A38A850080351B /* QuartzCore.framework */; };
+		BBF25B16139F20A800CE773F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF25B15139F20A800CE773F /* UIKit.framework */; };
+		BBF25B18139F20A800CE773F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF25B17139F20A800CE773F /* Foundation.framework */; };
+		BBF25B1A139F20A800CE773F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF25B19139F20A800CE773F /* CoreGraphics.framework */; };
+		BBF25B20139F20A800CE773F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBF25B1E139F20A800CE773F /* InfoPlist.strings */; };
+		BBF25B23139F20A800CE773F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF25B22139F20A800CE773F /* main.m */; };
+		BBF25B26139F20A800CE773F /* MultiColumnTableViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF25B25139F20A800CE773F /* MultiColumnTableViewAppDelegate.m */; };
+		BBF25B29139F20A800CE773F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF25B27139F20A800CE773F /* MainWindow.xib */; };
+		BBF25B2C139F20A800CE773F /* MultiColumnTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF25B2B139F20A800CE773F /* MultiColumnTableViewViewController.m */; };
+		BBF25B2F139F20A800CE773F /* MultiColumnTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF25B2D139F20A800CE773F /* MultiColumnTableViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB29156D13D6E76000CFA999 /* EWMultiColumnTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = EWMultiColumnTableView.h; sourceTree = "<group>"; };
+		BB29156E13D6E76000CFA999 /* EWMultiColumnTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableView.m; sourceTree = "<group>"; };
+		BB29156F13D6E76000CFA999 /* EWMultiColumnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; path = EWMultiColumnTableViewCell.h; sourceTree = "<group>"; };
+		BB29157013D6E76000CFA999 /* EWMultiColumnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewCell.m; sourceTree = "<group>"; };
+		BB29157113D6E76000CFA999 /* EWMultiColumnTableViewDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; path = EWMultiColumnTableViewDefaults.h; sourceTree = "<group>"; };
+		BB29157213D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = EWMultiColumnTableViewContentBackgroundView.h; sourceTree = "<group>"; };
+		BB29157313D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewContentBackgroundView.m; sourceTree = "<group>"; };
+		BB29157413D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = EWMultiColumnTableViewBGScrollView.h; sourceTree = "<group>"; };
+		BB29157513D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewBGScrollView.m; sourceTree = "<group>"; };
+		BB29157613D6E76000CFA999 /* EWHeaderHighlightLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; path = EWHeaderHighlightLayer.h; sourceTree = "<group>"; };
+		BB29157713D6E76000CFA999 /* EWHeaderHighlightLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWHeaderHighlightLayer.m; sourceTree = "<group>"; };
+		BB29157813D6E76000CFA999 /* UIView+AddLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLine.h"; sourceTree = "<group>"; };
+		BB29157913D6E76000CFA999 /* UIView+AddLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLine.m"; sourceTree = "<group>"; };
+		BBB77CE813A38A850080351B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BBF25B11139F20A800CE773F /* MultiColumnTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiColumnTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF25B15139F20A800CE773F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBF25B17139F20A800CE773F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBF25B19139F20A800CE773F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBF25B1D139F20A800CE773F /* MultiColumnTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiColumnTableView-Info.plist"; sourceTree = "<group>"; };
+		BBF25B1F139F20A800CE773F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBF25B21139F20A800CE773F /* MultiColumnTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiColumnTableView-Prefix.pch"; sourceTree = "<group>"; };
+		BBF25B22139F20A800CE773F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBF25B24139F20A800CE773F /* MultiColumnTableViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiColumnTableViewAppDelegate.h; sourceTree = "<group>"; };
+		BBF25B25139F20A800CE773F /* MultiColumnTableViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiColumnTableViewAppDelegate.m; sourceTree = "<group>"; };
+		BBF25B28139F20A800CE773F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BBF25B2A139F20A800CE773F /* MultiColumnTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiColumnTableViewViewController.h; sourceTree = "<group>"; };
+		BBF25B2B139F20A800CE773F /* MultiColumnTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiColumnTableViewViewController.m; sourceTree = "<group>"; };
+		BBF25B2E139F20A800CE773F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MultiColumnTableViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF25B0E139F20A800CE773F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB77CE913A38A850080351B /* QuartzCore.framework in Frameworks */,
+				BBF25B16139F20A800CE773F /* UIKit.framework in Frameworks */,
+				BBF25B18139F20A800CE773F /* Foundation.framework in Frameworks */,
+				BBF25B1A139F20A800CE773F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB8C983E13C74ABA00FC2FAC /* MultiColumnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BB29156D13D6E76000CFA999 /* EWMultiColumnTableView.h */,
+				BB29156E13D6E76000CFA999 /* EWMultiColumnTableView.m */,
+				BB29156F13D6E76000CFA999 /* EWMultiColumnTableViewCell.h */,
+				BB29157013D6E76000CFA999 /* EWMultiColumnTableViewCell.m */,
+				BB29157113D6E76000CFA999 /* EWMultiColumnTableViewDefaults.h */,
+				BB29157213D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.h */,
+				BB29157313D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.m */,
+				BB29157413D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.h */,
+				BB29157513D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.m */,
+				BB29157613D6E76000CFA999 /* EWHeaderHighlightLayer.h */,
+				BB29157713D6E76000CFA999 /* EWHeaderHighlightLayer.m */,
+				BB29157813D6E76000CFA999 /* UIView+AddLine.h */,
+				BB29157913D6E76000CFA999 /* UIView+AddLine.m */,
+			);
+			name = MultiColumnTableView;
+			sourceTree = "<group>";
+		};
+		BBF25B06139F20A800CE773F = {
+			isa = PBXGroup;
+			children = (
+				BBF25B1B139F20A800CE773F /* MultiColumnTableView */,
+				BBF25B14139F20A800CE773F /* Frameworks */,
+				BBF25B12139F20A800CE773F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF25B12139F20A800CE773F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF25B11139F20A800CE773F /* MultiColumnTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF25B14139F20A800CE773F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB77CE813A38A850080351B /* QuartzCore.framework */,
+				BBF25B15139F20A800CE773F /* UIKit.framework */,
+				BBF25B17139F20A800CE773F /* Foundation.framework */,
+				BBF25B19139F20A800CE773F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF25B1B139F20A800CE773F /* MultiColumnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BBF25B24139F20A800CE773F /* MultiColumnTableViewAppDelegate.h */,
+				BBF25B25139F20A800CE773F /* MultiColumnTableViewAppDelegate.m */,
+				BBF25B27139F20A800CE773F /* MainWindow.xib */,
+				BBF25B2A139F20A800CE773F /* MultiColumnTableViewViewController.h */,
+				BBF25B2B139F20A800CE773F /* MultiColumnTableViewViewController.m */,
+				BBF25B2D139F20A800CE773F /* MultiColumnTableViewViewController.xib */,
+				BB8C983E13C74ABA00FC2FAC /* MultiColumnTableView */,
+				BBF25B1C139F20A800CE773F /* Supporting Files */,
+			);
+			path = MultiColumnTableView;
+			sourceTree = "<group>";
+		};
+		BBF25B1C139F20A800CE773F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBF25B1D139F20A800CE773F /* MultiColumnTableView-Info.plist */,
+				BBF25B1E139F20A800CE773F /* InfoPlist.strings */,
+				BBF25B21139F20A800CE773F /* MultiColumnTableView-Prefix.pch */,
+				BBF25B22139F20A800CE773F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF25B10139F20A800CE773F /* MultiColumnTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF25B32139F20A800CE773F /* Build configuration list for PBXNativeTarget "MultiColumnTableView" */;
+			buildPhases = (
+				BBF25B0D139F20A800CE773F /* Sources */,
+				BBF25B0E139F20A800CE773F /* Frameworks */,
+				BBF25B0F139F20A800CE773F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiColumnTableView;
+			productName = MultiColumnTableView;
+			productReference = BBF25B11139F20A800CE773F /* MultiColumnTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF25B08139F20A800CE773F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Newegg.com;
+			};
+			buildConfigurationList = BBF25B0B139F20A800CE773F /* Build configuration list for PBXProject "MultiColumnTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBF25B06139F20A800CE773F;
+			productRefGroup = BBF25B12139F20A800CE773F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF25B10139F20A800CE773F /* MultiColumnTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF25B0F139F20A800CE773F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF25B20139F20A800CE773F /* InfoPlist.strings in Resources */,
+				BBF25B29139F20A800CE773F /* MainWindow.xib in Resources */,
+				BBF25B2F139F20A800CE773F /* MultiColumnTableViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF25B0D139F20A800CE773F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF25B23139F20A800CE773F /* main.m in Sources */,
+				BBF25B26139F20A800CE773F /* MultiColumnTableViewAppDelegate.m in Sources */,
+				BBF25B2C139F20A800CE773F /* MultiColumnTableViewViewController.m in Sources */,
+				BB29157A13D6E76000CFA999 /* EWMultiColumnTableView.m in Sources */,
+				BB29157B13D6E76000CFA999 /* EWMultiColumnTableViewCell.m in Sources */,
+				BB29157C13D6E76000CFA999 /* EWMultiColumnTableViewContentBackgroundView.m in Sources */,
+				BB29157D13D6E76000CFA999 /* EWMultiColumnTableViewBGScrollView.m in Sources */,
+				BB29157E13D6E76000CFA999 /* EWHeaderHighlightLayer.m in Sources */,
+				BB29157F13D6E76000CFA999 /* UIView+AddLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBF25B1E139F20A800CE773F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF25B1F139F20A800CE773F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBF25B27139F20A800CE773F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF25B28139F20A800CE773F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BBF25B2D139F20A800CE773F /* MultiColumnTableViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF25B2E139F20A800CE773F /* en */,
+			);
+			name = MultiColumnTableViewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBF25B30139F20A800CE773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BBF25B31139F20A800CE773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		BBF25B33139F20A800CE773F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiColumnTableView/MultiColumnTableView-Prefix.pch";
+				INFOPLIST_FILE = "MultiColumnTableView/MultiColumnTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBF25B34139F20A800CE773F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiColumnTableView/MultiColumnTableView-Prefix.pch";
+				INFOPLIST_FILE = "MultiColumnTableView/MultiColumnTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF25B0B139F20A800CE773F /* Build configuration list for PBXProject "MultiColumnTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF25B30139F20A800CE773F /* Debug */,
+				BBF25B31139F20A800CE773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF25B32139F20A800CE773F /* Build configuration list for PBXNativeTarget "MultiColumnTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF25B33139F20A800CE773F /* Debug */,
+				BBF25B34139F20A800CE773F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF25B08139F20A800CE773F /* Project object */;
+}
