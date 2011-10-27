@@ -22,6 +22,8 @@
 
 
 #import "MultiColumnTableViewViewController.h"
+#import "NSObject+DelayedBlock.h"
+
 #define ROWS 100
 
 @interface MultiColumnTableViewViewController()
@@ -137,7 +139,10 @@
     tblView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
     [self.view addSubview:tblView];
     
-    
+    [self performBlock:^{
+            
+        [tblView scrollToColumn:3 position:EWMultiColumnTableViewColumnPositionMiddle animated:YES];
+    } afterDelay:0.5];
 }
 
 
@@ -145,6 +150,7 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    
     // e.g. self.myOutlet = nil;
     [tblView release];
     tblView = nil;

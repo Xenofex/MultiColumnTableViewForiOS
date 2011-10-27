@@ -29,6 +29,11 @@
 
 @protocol EWMultiColumnTableViewDataSource;
 
+typedef enum __EWMultiColumnTableViewColumnPosition {
+    EWMultiColumnTableViewColumnPositionLeft,
+    EWMultiColumnTableViewColumnPositionMiddle,
+    EWMultiColumnTableViewColumnPositionRight
+} EWMultiColumnTableViewColumnPosition;
 
 
 @interface EWMultiColumnTableView : UIView<UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate> {
@@ -87,6 +92,8 @@
 
 - (void)reloadData;
 - (BOOL)sectionIsFolded:(NSInteger)section;
+
+- (void)scrollToColumn:(NSInteger)col position:(EWMultiColumnTableViewColumnPosition)pos animated:(BOOL)animated;
 
 @end
 

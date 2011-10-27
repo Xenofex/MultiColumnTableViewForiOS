@@ -182,6 +182,8 @@
     
 }
 
+#pragma mark - Methods
+
 - (void)reloadData
 {
     [self reset];
@@ -195,6 +197,31 @@
 - (BOOL)sectionIsFolded:(NSInteger)section
 {
     return [[sectionFoldingStatus objectAtIndex:section] boolValue];
+}
+
+- (void)scrollToColumn:(NSInteger)col position:(EWMultiColumnTableViewColumnPosition)pos animated:(BOOL)animated
+{
+    CGFloat x = 0.0f;
+    
+    for (int i = 0; i < col; i++) {
+        x += [self widthForColumn:i] + normalSeperatorLineWidth;
+    }
+    
+    switch (pos) {
+        case EWMultiColumnTableViewColumnPositionMiddle:
+            x -= (scrlView.bounds.size.width - (2 * normalSeperatorLineWidth + [self widthForColumn:col])) / 2;
+            if (x < 0.0f) x = 0.0f;
+            break;
+        case EWMultiColumnTableViewColumnPositionRight:
+            x -= scrlView.bounds.size.width - (2 * normalSeperatorLineWidth + [self widthForColumn:col]);
+            if (x < 0.0f) x = 0.0f;
+            break;
+        default:
+            break;
+    
+    }
+        
+    [scrlView setContentOffset:CGPointMake(x, 0) animated:animated];
 }
 
 #pragma mark - Properties
@@ -290,7 +317,7 @@
     
     if (cell == nil) {
         cell = [[[EWMultiColumnTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellID] autorelease];
-        cell.selectionStyle = UITableViewCellEditingStyleNone;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         [cell addBottomLineWithWidth:normalSeperatorLineWidth color:normalSeperatorLineColor];
     }
     
@@ -346,7 +373,7 @@
     
     if (cell == nil) {
         cell = [[[EWMultiColumnTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellID] autorelease];
-        cell.selectionStyle = UITableViewCellEditingStyleNone;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.contentView.backgroundColor = sectionHeaderBackgroundColor;
         [cell addBottomLineWithWidth:normalSeperatorLineWidth color:normalSeperatorLineColor];
     }
@@ -406,7 +433,7 @@
     
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellID] autorelease];
-        cell.selectionStyle = UITableViewCellEditingStyleNone;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         UIView *headerCellView;
         

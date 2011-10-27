@@ -26,7 +26,7 @@
 @class EWMultiColumnTableView;
 
 
-@interface EWMultiColumnTableViewBGScrollView : UIScrollView<UIScrollViewDelegate> {
+@interface EWMultiColumnTableViewBGScrollView : UIScrollView {
     NSMutableArray *lines;
 }
 
