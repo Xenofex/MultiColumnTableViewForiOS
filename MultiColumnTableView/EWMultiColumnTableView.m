@@ -96,6 +96,7 @@
         self.layer.borderWidth = EWMultiColumnTable_BorderWidth;
         self.clipsToBounds = YES;
         self.backgroundColor = [UIColor clearColor];
+        self.contentMode = UIViewContentModeRedraw;
         
         cellHeight = EWMultiColumnTable_DefaultCellHeight;
         cellWidth = EWMultiColumnTable_DefaultCellWidth;
@@ -119,7 +120,6 @@
         
         scrlView = [[EWMultiColumnTableViewBGScrollView alloc] initWithFrame:self.bounds];
         scrlView.parent = self;
-//        scrlView.backgroundColor = [UIColor whiteColor];
         scrlView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
         [self addSubview:scrlView];
         
